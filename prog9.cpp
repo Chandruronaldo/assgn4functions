@@ -21,7 +21,7 @@ int main() {
 	int x,cj,count,lb,ub;
 	cout<<"enter the lower bound and upper bound of the range\n";
 	cin>>lb>>ub;
-	cout<<"\n the armstrong numbers between the given range are \n";
+	cout<<"\n the perfect numbers between the given range are \n";
 	for(int i=lb;i<ub;i++)
 	{
 	perfect(i);
